@@ -1,23 +1,430 @@
+X-UA-Compatible
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Leftcraft Taproom | Edmonds, Washington</title>
+        <title>Leftcraft Restaurant & Taproom | West Coast Provisions | Edmonds, Washington</title>
+     <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+   
+<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNuYFge8HYLm7Px0z1H0QmC91DTAKnIg8">
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5412349-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
-    <body style="background-color: #84bea9;font-family:sans-serif; text-align: center; max-width: 70%; margin: 0 auto;">       
-        <img src="logoDraft.png" style="display: block; margin-left: auto; margin-right: auto;" alt="Leftcraft Taproom Logo">
 
-        <h4>Leftcraft West Coast Provisions is on Main Street in Edmonds, WA. </h4>
-        <h5>We will open in late summer of 2020. </h5>
+<body data-spy="scroll" data-target=".navbar">
 
-        <p style="border-top: 1px solid black;"></p>
+    <div id="shell">
 
-        <p>Announcement: we are hiring for all back-of-house positions now. Please drop us a line, send us a resume, connect—-we look forward to meeting you!</p>
-        <a href=
-        https://poachedjobs.com/jobs/edmonds-wa-kitchen-jobs-leftcraft-new-restaurant-opening-hiring-all-boh-positions-2?from=jobs&rec=false" style=" background-color: black; padding: 1em; color:white; margin-top: 2em; text-decoration: none; display: block;"> Apply now > </a>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="#">
+                <img alt="Brand" src="./img/leftcraft_logo_A.svg">
+              </a>
+            </div>
 
-        <p>Stay healthy out there, and see you soon!</p>
-    </body>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">  
+                <li><a href="#beer">Drinks</a></li>
+                <li><a href="#food">Food</a></li>
+                <li><a href="#covid">Covid info</a></li>
+                <li><a href="#location">Location</a></li>
+
+              </ul> 
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+
+        
+
+        <div id="headerImg">
+            <div id="logo"></div><!--logo-->
+        </div><!--headerImg_container-->
+        <div id="rippleImg"></div>
+
+    <h5 class="anchor" id="about"></h5>
+    <section id="about" class="container">
+        <div class="text">
+               
+                <h2 id="about-intro">Leftcraft is in downtown Edmonds.</h2>
+                <p>A comfortable and creative atmosphere with well-curated offerings, dedicated to keeping things local, fresh and sustainable. Whether you’re craving homestyle comfort food or healthier options, Leftcraft celebrates the abundant ingredients throughout the region. Full bar with signature cocktails and 20 regionally-focused rotating craft selections.</p>
+        
+                
+                <p>West coast-inspired food and drink in a modern, neighborhood setting.</p>
+                
+            </div>      
+        </div><!--text-->
+    </section><!--about--> 
+
+    
+    <div id="extImg" class="container"></div>
+    <h5 class="anchor" id="beer"></h5>
+    
+    <section id="beer" class="container">
+        <article>
+            <div class="beerlist">
+                <p>20 taps, rotating daily.</p>
+                <h1>ON DRAFT</h1>
+
+                <div id="beerNest">
+                  <p id="data1"></p>
+                  <p id="data2"></p>
+                </div>
+              <div id="updateShell">Updated on <span id="update"></span> </div>
+            </div><!--beerlist-->   
+        </article>
+
+        <div id="booze">
+        <h1>House Cocktails</h1>
+            <div class="foodSection">                
+                <ul class="column1">                
+                    <li class="food_item">Leftcraft  20</li>
+                    <li class="food_description">mixed greens, shrimp, scallops, wild caught
+                    alaskan sockeye salmon with citrus chermoula,
+                    lemon remoulade, avocado, & parmesan crisp</li>
+                    
+                    <li class="spacemaker"></li>
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                </ul>
+                <ul class="column1">                
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                </ul>
+
+        </div><!-- cocktails -->
+
+        <div id="wine">
+            <h1>Wine</h1>
+            <div class="foodSection">  
+                <ul class="column1">                
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                </ul>
+                <ul class="column1">                
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                </ul>
+
+            </ul>
+        </div><!-- wine -->
+
+            <h1>Spirits</h1>
+            <div class="foodSection">  
+                <ul class="column1">                
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                </ul>
+                <ul class="column1">                
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                    <li class="food_item">Item name</li>
+                </ul>
+            <a href="#">Full spirits list</a>
+        </div><!-- spirits -->
+        
+    </section><!--beer-->
+
+    <div id="tapsImg"></div>
+    <div id="backbarImg"></div>
+    <h5 class="anchor" id="food"></h5>
+    <div id="tacoImg" class="container"></div>
+
+    <section id="food" class="container">
+        <h1>FOOD</h1>
+        <p id="menuLinks"><a href="#rotisserie">Off the rotisserie</a> | <a href="#salads">Salads</a> | <a href="#bites">Bites</a> | <a href="#sandwiches">Sandwiches</a> | <a href="#bowls">Bowls</a> | <a href="#kids">For the kids</a> 
+        <div class="foodSection">
+            <h5 class="anchor" id="rotisserie"></h5>
+            <h2 id="rotisserie">Off the rotisserie</h2>
+            <ul class="column1">
+                <li class="food_item">Half chicken  26</li>
+                    <li class="food_description">Served on flatbread with side of seasonal roasted vegetables, with your sauce choice of Carolina gold, bourbon stout bbq, or teriyaki glaze. Choose a side of potato salad, macaroni salad, or quinoa salad. </li>
+                    <li class="spacemaker"></li>                    
+            </ul>
+            <ul class="column2">
+                   <li class="food_item">Half rack of St. Louis-style ribs  28</li>
+                    <li class="food_description">Served on flatbread with side of seasonal roasted vegetables, with your sauce choice of Carolina gold, bourbon stout bbq, or teriyaki glaze. Choose a side of potato salad, macaroni salad, or quinoa salad. </li>
+                    <li class="spacemaker"></li>
+            </ul>
+        </div><!--rotisserie-->
+        <div class="foodSection">
+            <h5 class="anchor" id="salads"></h5>
+             <h2>Salads</h2>
+                  <ul class="column1">                
+                    <li class="food_item">Simple Greens  13</li>
+                    <li class="food_description">mixed greens, avocado, cucumber, tomato, red bell
+                    pepper, pickled beets, & croutons. choice of champagne
+                    vinaigrette, lemon vinaigrette, balsamic vinaigrette,
+                    chipotle-orange vinaigrette or green goddess</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Leftcraft  20</li>
+                    <li class="food_description">mixed greens, shrimp, scallops, wild caught
+                    alaskan sockeye salmon with citrus chermoula,
+                    lemon remoulade, avocado, & parmesan crisp</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Caesar  13</li>
+                    <li class="food_description">romaine, shaved parmesan, croutons, lemon garlic
+                    vinaigrette. topped with white anchovy</li>
+                    <li class="spacemaker"></li>
+
+
+
+                </ul>
+                <ul class="column2">
+                    <li class="food_item">Orange Chipotle  15</li>
+                    <li class="food_description">mixed greens, cabbage, grape tomato, orange
+                    supremes, pickled shallot, cucumber, croutons,
+                    chipotle-orange vinaigrette. topped with feta
+                    & pumpkin seeds</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Balsamic Blue  14</li>
+                    <li class="food_description">mixed greens, blue cheese, slivered almonds, dried
+                    cranberry, red grapes, balsamic vinaigrette</li>
+                    <li class="spacemaker"></li>
+
+                </ul>
+            </div><!--salads-->
+         <div class="foodSection">
+            <h5 class="anchor" id="bites"></h5>
+             <h2>Bites</h2>
+                  <ul class="column1">                
+                    <li class="food_item">House Baked Bread  8</li>
+                    <li class="food_description">served with fresh churned butter</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Grilled Shrimp Cocktail  18</li>
+                    <li class="food_description">wild caught gulf shrimp hot off the grill, cocktail sauce,
+                    pickled shallot, & preserved lemon</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Saison Steamers  18</li>
+                    <li class="food_description">choice of [taylor shellfish farms clams, mussels or
+                    combo] served in a saison dupont broth with pickled
+                    peppers, green onion, & grilled baguette</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Flatbread  14</li>
+                    <li class="food_description">house made flatbread, currant tamarind fig sauce,
+                    mushroom blend, & goat cheese. topped with
+                    lemony arugula, hazelnuts, & pickled beets</li>
+                    <li class="spacemaker"></li>
+
+                 </ul>
+                <ul class="column2">
+                    <li class="food_item">Kimchi Focaccia Toast  10</li>
+                    <li class="food_description">focaccia, kimchi, sharp cheddar, sesame seed, &
+                    green onion. drizzled with chojang sauce</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Mini Twice Baked Potatoes  12</li>
+                    <li class="food_description">topped with sharp cheddar, bacon, & green onion.
+                    served with chipotle aioli</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Pretzel Knots  09</li>
+                    <li class="food_description">served with beer cheese & select mustards</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Meat & Cheese Board  18</li>
+                    <li class="food_description">trotating selection of artisan meats & cheeses served
+                    with house toast & pickled vegetables</li>
+                    <li class="spacemaker"></li>
+                </ul>
+
+            </div><!--bites-->
+         <div class="foodSection">
+            <h5 class="anchor" id="sandwiches"></h5>
+             <h2>Sandwiches</h2>
+                  <ul class="column1">                
+                    <li class="food_item">Main Street Burger  14</li>
+                    <li class="food_description">[sub chicken breast no charge] grass fed beef, lettuce,
+                    tomato, onion, pickle, & burger sauce on a house bun
+                    +1.50 cheese +2 bacon +3 avocado +.50 grilled onion</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Curry Chicken Salad  16</li>
+                    <li class="food_description">curried chicken salad on multigrain with lettuce,
+                    tomato, & currant tamarind fig sauce</li>
+                    <li class="spacemaker"></li>
+
+                </ul>
+                <ul class="column2">
+                    <li class="food_item">Fish Sandwich  18</li>
+                    <li class="food_description">wild caught alaskan sockeye salmon, avocado, green
+                    onion, pickled carrot/ daikon, lemon remoulade. served
+                    on a house baguette</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Spicy Black Bean & Roasted Veggie Torta  14</li>
+                    <li class="food_description">spicy black bean patty, mixed grilled vegetables,
+                    avocado, lettuce, tomato, & pickled jalapeño. served
+                    on a telera style roll with a side of chipotle aioli</li>
+                    <li class="spacemaker"></li>
+                </ul>
+            </div><!--sandwiches-->
+             <div class="foodSection">
+            <h5 class="anchor" id="bowls"></h5>
+             <h2>Bowls</h2>
+                  <ul class="column1">                
+                    <li class="food_item">Beef  17</li>
+                    <li class="food_description">marinated new york strip, sprouted brown rice,
+                    kimchi, mixed mushroom, sliced jalapeño, green
+                    onion, pickled carrot /daikon, garlic chips, green
+                    leaf lettuce, & tamari chili sauce</li>
+                    <li class="spacemaker"></li>
+
+                </ul>
+                <ul class="column2">
+                    <li class="food_item">Veggie  15</li>
+                    <li class="food_description">grain blend, marinated garbanzo beans, roasted
+                    eggplant, cucumber, grape tomato, pickled peppers,
+                    tahini dressing, feta, kalamata olives, & pumpkin seeds.
+                    served with flatbread</li>
+                    <li class="spacemaker"></li>
+
+                </ul>
+            </div><!--bowls-->
+             <div class="foodSection">
+            <h5 class="anchor" id="kids"></h5>
+             <h2>For the kids</h2>
+                  <ul class="column1">                
+                    <li class="food_item">Grilled Cheese  08</li>
+                    <li class="food_description">cheddar cheese on sourdough </li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Cheesy Flatbread  08</li>
+                    <li class="food_description">flatbread, tomato sauce, cheese blend</li>
+                    <li class="spacemaker"></li>
+
+                </ul>
+                <ul class="column2">
+                    <li class="food_item">Rice Bowl  10</li>
+                    <li class="food_description">choice of beef or chicken breast over sprouted
+                    brown rice with side of bbq sauce or teriyaki glaze</li>
+                    <li class="spacemaker"></li>
+
+                    <li class="food_item">Burger  10</li>
+                    <li class="food_description">4oz grass fed beef on bun. lettuce, tomato
+                    & ketchup on the side +1.50 cheese +2 bacon</li>
+                    <li class="spacemaker"></li>
+                </ul>
+            </div><!--kids-->
+
+    </section><!--food-->   
+
+    
+    <h5 class="anchor" id="covid"></h5>
+    <section id="covid" class="container">
+       <h3> We would like to give as many people as possible the opportunity to visit Leftcraft. </h3>
+        <p>The following policies will be in place to ensure the safety and well being of our employees and guests. </p>
+
+        <ol>
+            <li>Guests will be limited to 90 minutes when dining with us. </li>
+            <li>Tables will be available on a first-come first-serve basis, and we can add you to our waitlist if tables are full. Feel free to give us a call to inquire about availability or to get on the list. </li>
+            <li>Face coverings must be worn by guests when communicating with staff and not dining at their table.</li>
+            <li>We cannot accommodate more than 5 people per table. Infants and children count as people.</li>
+            <li>Indoor seating will only be available for parties from the same household. </li>
+
+        </ol>
+        <p>In addition, germicidal UV lights rays will be utilized with the HVAC system. The process has been known to reduce airborne bacteria, mold, odor and virus by 99%.</p>   
+        <p>Please be respectful and mindful of other patrons and staff while we navigate this process together. </p>
+        <h3>We appreciate your patience and look forward to welcoming you! </h3>
+    </section>
+
+
+    <div id="restaurantImg" class="container"></div>
+    <div id="saladImg" class="container"></div>
+    
+
+    <h5 class="anchor" id="location"></h5>
+
+    <section id="location" class="container">
+    <!-- <div class="container"> -->    
+        <h1>Location &amp; Hours</h1></div>
+        <footer>
+            
+            <div id="map-canvas"/></div>
+            <div id="hours">
+                <h2>Hours</h2>
+                <ul>
+                    <li>Opening Wednesday August 26th</li>
+                    <li>Serving lunch and dinner</li>
+                    
+                </ul>
+            </div><!--hours-->
+            <div id="adr">
+                <h2>Find Us</h2>
+                <ul>
+                    <li>519 Main St</li>
+                    <li>Edmonds, WA 98020</li>
+                    <li>425.582.8661</li>
+                </ul>
+            </div><!--location-info-->
+            <div id="closer">
+                    <!-- <img src="./img/leftcraft_stamp_T.svg" /> -->
+                <p>&copy; 519 Main 2020</p>
+            </div>
+            
+        </footer>
+    </section><!--location-->
+    </div><!--shell-->
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="./js/jquery.js"></script>
+
+ <!--  <script src="js/jquery.stellar.min.js"></script>  -->
+    <script src="js/external_libraries.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script type="text/javascript" src="js/tabletop.js"></script> -->
+    <!-- // <script src="js/bootstrap.min.js"></script> -->
+    <script type="text/javascript">
+        $('body').scrollspy({ target: '.navbar' });
+    </script>
+
+  </body>
 </html>

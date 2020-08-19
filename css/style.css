@@ -1,0 +1,472 @@
+@font-face {
+	font-family: "Hurme";
+    src: url('../fonts/hurmegeometricsans2regular-webfont.woff2') format('woff2'),
+         url('../fonts/hurmegeometricsans2regular-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: "GT Pressura Light";
+    src: url('../fonts/gt-pressura-light-webfont.woff2') format('woff2'),
+         url('../fonts/gt-pressura-light-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: "GT Pressura Regular";
+    src: url('../fonts/gt-pressura-regular-webfont.woff2') format('woff2'),
+         url('../fonts/gt-pressura-regular-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: "GT Pressura Bold";
+    src: url('../fonts/gt-pressura-bold-webfont.woff2') format('woff2'),
+         url('../fonts/gt-pressura-bold-webfont.woff') format('woff');
+}
+
+body{
+	background-color: #84bea9;
+	text-align: left;
+	font-size: 19px;
+	font-family: "GT Pressura Regular", monospace;
+	color: #393939;
+}
+
+h1, h2, h3, h4{
+	font-family: "Hurme", Georgia;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+a{
+	color: #1BA2B1;
+	text-decoration: underline;
+}
+a:hover{
+	color: #025669;
+}
+
+h1{
+	font-size: 2.25em;
+	font-weight: 100;
+}
+h2{
+	font-size: 1.5em;
+	font-weight: 600;
+}
+#about h2#about-intro{
+	margin-top: 0;
+}
+h3{
+	font-size: 1.125em;
+	font-weight: 600;
+}
+h4{
+	font-size: .875em;
+}
+p{
+	font-size: 1em;
+}
+
+ul{
+	list-style: none;
+}
+
+.navbar-default{
+	background-color: #F9F9F9;
+	border-bottom: 2px solid #84bea9;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+	height: 70px;
+	line-height: 45px;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand{
+	color: #333;
+	font-family: "GT Pressura Regular", Arial;
+	text-decoration: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	background-color: #84bea9;
+	min-height: 100%;
+	color: #333;
+	font-family: "GT Pressura Regular", Arial;
+}
+
+
+.navbar-header, a.navbar-brand{
+}
+.navbar-header img{
+	height: 42px;
+	margin: 0px 20px 10px 30px;
+}
+
+h5.anchor{
+	padding-top: 4em;
+	margin-top: -4em;
+	background-color: transparent;
+}
+
+#shell{
+	min-width: 100%;
+	margin: 0 auto;
+	height: auto;
+}
+
+.container{
+	min-width: 100%;
+	background-color: #f9f9f9;
+}
+
+div.column{
+	max-width: 1500px;
+}
+
+#headerImg{
+	height: 966px;
+	background:  url('../img/logo_bg-large.jpg') no-repeat center center;
+	text-align: center;
+	background-size: cover;
+}
+
+
+#logo{
+    display: inline-block;
+    width: 60%;
+    max-width: 700px;
+    height: 275px;
+    background: url('../img/leftcraft_logo-W.svg') no-repeat;
+    margin: 173px auto 0;
+}
+
+#extImg{
+	height: 1065px;
+	background: url('../img/ext-front-large.jpg');
+	background-size: cover;
+}
+
+#backbarImg{
+	/*height: 150px;*/
+	background: url('../img/dotPattern.png');
+	/*background-size: cover;*/
+}
+
+
+#backbarImg{
+	height: 811px;
+	background: url('../img/backbar-large.jpg');
+	background-size: cover;
+}
+
+#tapsImg{
+	height: 150px;
+	background: url('../img/ripplePattern.png');
+	/*background-size: cover;*/
+}
+
+#tacoImg{
+	/*height: 150px;*/
+	background: url('../img/dotPattern.png');
+
+	/*background-size: cover;*/
+}
+#saladImg{
+	/*height: 150px;*/
+	background: url('../img/sprinklePattern.png');
+	/*background-size: cover;*/
+}
+#rippleImg{
+	/*height: 150px;*/
+	background: url('../img/wavePattern.png');
+	/*background-size: cover;*/
+} 
+
+#about{
+	padding: 2em;
+}
+
+/*BEER LIST*/
+/*----------------------------------------------------------------------------*/
+
+#beer{
+	padding: 2em;
+}
+
+.beerlist {
+        /*padding: 12px 0 10px 20px;*/
+}
+
+#beerNest{
+	width: 100%;
+}
+#data1, #data2{
+	min-width: 48%;
+	/*min-width: 400px;*/
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 15px 0 0;
+	margin: 0 auto;
+}
+
+.beerlist #data1 ul, .beerlist #data2 ul{
+	padding: 0;
+}
+li.beer_name{
+	text-transform: uppercase;
+	font-family: "GT Pressura Bold";
+}
+li.beer_description {
+    font-size: 95%;
+}
+.beerlist #data1 ul li.nextup, .beerlist #data2 ul li.nextup {
+    color: #7F7F7F;
+    font-weight: 100;
+    font-size: 95%;
+}
+
+.beerlist #data1 ul li.spacemaker, .beerlist #data2 ul li.spacemaker{
+    border-top: 2px dotted #84bea9;
+    margin: 10px 0 0 0;
+    padding: 10px 0 0 0;
+}
+
+.beerlist #data1 .listend, .beerlist #data2 .listend {
+    padding: 0 0 10px 0;
+}
+
+
+#updateShell {
+    text-align: left;
+    font-size: 80%;
+}
+
+/*FOOD LIST*/
+/*----------------------------------------------------------------------------*/
+#food{
+	padding: 2em;
+	width:100%;
+}
+#food .row {
+	margin: 0px;
+}
+
+li.food_item{
+	font-family: "GT Pressura Bold";
+}
+li.food_description{
+	font-weight: 100;
+}
+
+p#menuLinks{
+	text-align: left;
+}
+.foodSection{
+	
+}
+
+ul.column1, ul.column2, ul.column{
+	width: 49%;
+	display: inline-block;;
+	padding: 0 10px 0 0;
+}
+
+ul.column1{
+	vertical-align: top;
+}
+
+
+/*FOOTER*/
+/*----------------------------------------------------------------------------*/
+ #location{
+ 	padding: 2em;
+ }
+
+ footer{
+ 	/*padding: 15px;*/
+ 	height: 100%;
+ 	margin-top: 10px;
+ 	/*color: white;
+ 	background-color: #333;*/
+ }
+ #adr{
+ 	display: inline-block;
+ 	width: 49%;
+ 	vertical-align: top;
+ }
+#map-canvas { 
+ 	width: 100%;
+ 	height: 350px;
+	display: inline-block;
+
+ }
+ #hours{
+ 	vertical-align: top;
+ 	display: inline-block;
+ 	width: 49%;
+ }
+
+ footer ul {
+ 	padding: 0px;
+ }
+
+ #closer{
+ 	text-align: center;
+ 	width: 100%;
+ 	margin: 50px 0 20px;
+ 	color: #666;
+ }
+
+/*MEDIA QUERIES*/
+/*----------------------------------------------------------------------------*/
+@media (max-width: 750px) {
+	.navbar-brand, .navbar-nav li a {
+	height: 50px;
+	line-height: 25px;
+	}
+	.navbar-default{
+	font-size: 115%;
+	}
+	.navbar-brand,
+	.navbar-nav li a {
+		height: 40px;
+		line-height: 20px;
+	}
+	.navbar-header img{
+		height: 40px;
+		margin: -10px 10px 10px 5px;
+	}
+	.navbar-toggle{
+		background-color: black;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color: white;
+	}
+
+
+	#data1, #data2, ul.column1, ul.column2, ul.column{
+		width: 100%;
+	}
+	#beer, #food, #about, footer{
+		font-size: 95%;
+	}
+
+	#headerImg{
+		height: 425px;
+		background: url('../img/logo_bg-med.jpg') no-repeat center center;
+	}
+
+	#backbarImg{
+	height: 406px;
+	background: url('../img/backbar-med.jpg');
+	background-size: cover;
+}
+
+	#tapsImg{
+		height: 100px;
+		background: url('../img/diamondPattern.png');
+	}
+	
+	#restaurantImg{
+		/*height: 150px;*/
+		background: url('../img/sprinklePattern.png');
+	}
+
+	#saladImg{
+		height: 150px;
+		background: url('../img/sprinklePattern.png');
+	}
+	#extImg{
+	height: 533px;
+	background: url('../img/ext-front-med.jpg');
+	background-size: cover;
+}
+	#backbarImg{
+		height: 150px;
+		background: url('../img/chevronPattern.png');
+	}
+	#tacoImg{
+		height: 200px;
+		background: url('../img/diagonalPattern.png');
+	}
+	#rippleImg{
+		height: 100px;
+		background: url('../img/diamondPattern.png');
+	}
+}
+
+
+
+/*INVISIBLE PRINT STYLES*/
+/*----------------------------------------------------------------------------*/
+
+/*  adjust the widths to show 2 or 3 columns on a page */
+
+
+
+@media print {
+    @page{
+        size: 11.5in 8in;
+        margin: 0;
+    }
+/*    @page :left{
+    	display: none;
+    }
+	*/
+
+	.beerlist{
+		float:none;
+		display: inline-block;
+	}
+
+	.beerlist h1{
+		font-size: 21px;
+		font-weight: 700;
+		padding: 0;
+		margin: 0;
+		page-break-after: avoid;
+	}
+
+	.beerlist ul{
+		padding: 0;
+	}  
+	.beerlist #dataA, .beerlist #dataB, .beerlist #dataC, .beerlist #dataD, .beerlist #dataE, .beerlist #dataF {
+			width: 3.667in;
+			display: inline-block;
+			font-size: 74%;
+	}
+
+	.beerlist #dataD, .beerlist #dataE, .beerlist #dataF {
+			margin: 2.2cm 0 0;
+			padding-bottom: 0;
+	}
+
+	.beerlist ul li.spacemaker{
+		    border-top: 1px dotted #84bea9;
+   			margin: 5px 25px 0 0;
+	}
+
+	ul:nth-last-child(1) li.spacemaker{
+		display:none;
+	}
+
+	#beerNest{
+		float: none;
+	}
+	#beerNest p#dataC{
+		page-break-after: always;
+	}
+
+	li.continued{
+
+	}
+	li.beer_price{
+	    
+	}
+
+	.beerlist #updateShell{
+		margin-top: .5cm;
+		padding-top: 0;
+		line-height: 12px;
+		font-size: 11px;
+		page-break-after: avoid;
+		page-break-before: avoid;
+	}
+
+}
