@@ -163,18 +163,18 @@ div.column{
 
 #tacoImg{
 	/*height: 150px;*/
-	background: url('../img/dotPattern.png');
+	/*background: url('../img/dotPattern.png');*/
 
 	/*background-size: cover;*/
 }
 #saladImg{
 	/*height: 150px;*/
-	background: url('../img/sprinklePattern.png');
+	/*background: url('../img/sprinklePattern.png');*/
 	/*background-size: cover;*/
 }
 #rippleImg{
 	/*height: 150px;*/
-	background: url('../img/wavePattern.png');
+	/*background: url('../img/wavePattern.png');*/
 	/*background-size: cover;*/
 } 
 
@@ -246,9 +246,14 @@ li.beer_description {
 #food .row {
 	margin: 0px;
 }
+section li.spacemaker{
+	height: 10px;
+}
 
 li.food_item{
 	font-family: "GT Pressura Bold";
+	text-transform: uppercase;
+	font-weight: light;
 }
 li.food_description{
 	font-weight: 100;
