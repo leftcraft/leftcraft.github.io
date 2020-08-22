@@ -358,14 +358,14 @@ ul.column1{
 	}
 
 	#backbarImg{
-	height: 406px;
+	height: 220px;
 	background: url('../img/backbar-med.jpg');
 	background-size: cover;
 }
 
 	#tapsImg{
-		height: 100px;
-		background: url('../img/diamondPattern.png');
+		background: url('../img/sprinklePattern.png');
+		height: 50px;
 	}
 	
 	#restaurantImg{
@@ -382,12 +382,12 @@ ul.column1{
 	background: url('../img/ext-front-med.jpg');
 	background-size: cover;
 }
-	#backbarImg{
+	/*#backbarImg{
 		height: 150px;
 		background: url('../img/chevronPattern.png');
-	}
+	}*/
 	#tacoImg{
-		height: 200px;
+		/*height: 200px;*/
 		background: url('../img/diagonalPattern.png');
 	}
 	#rippleImg{
