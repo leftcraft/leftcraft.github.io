@@ -38,7 +38,7 @@ function showInfo(data) {
   // data comes through as a simple array since simpleSheet is turned on
   // document.getElementById("data").innerHTML = JSON.stringify(data);
   JSON.stringify(data);
-  for(var i=0; i<20; i++){
+  for(var i=0; i<22; i++){
         var pitcherPrice = "";
           if(data[i].price2!=""){
             pitcherPrice = ' &#8857; ' + data[i].price2;
@@ -54,10 +54,10 @@ function showInfo(data) {
         line = ('<li class="spacemaker"></li>');
         beerprice = ('<li class="beer_price">' + data[i].price1 + '</li>');
 
-        if(i<10){
+        if(i<11){
         	document.getElementById('data1').innerHTML += '<ul>' + beer + brewery_abv + next_up + line + '</ul>';
         }
-        else if(i>9){
+        else if(i>10){
         	document.getElementById('data2').innerHTML += '<ul>' + beer + brewery_abv + next_up + line + '</ul>';
         }
   }
